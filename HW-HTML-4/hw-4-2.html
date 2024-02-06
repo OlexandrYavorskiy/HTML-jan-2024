@@ -3,8 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+        }
+        section{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            align-items: center;
+        }
+        section div a{
+            text-decoration: none;
+            font-size: 60px;
+        }
+        #red{
+            background-color: red;
+        }
+        #cornblue{
+            background-color: cornflowerblue;
+        }
+        #green{
+            background-color: green;
+        }
+        div{
+            width: 1000px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        section div a{
+            color: black;
+        }
+        section div h3{
+            font-size: 50px;
+        }
+        section div p{
+            font-size:20px;
+        }
+    </style>
 </head>
 <body>
+    <section id="red">
+        <div>
+        <a href="#cornblue">&#8595;</a>
+        <h3>Section Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet error, id illo libero molestiae nostrum nulla perferendis perspiciatis quam quia saepe tempora vitae? Amet architecto aspernatur dicta modi repellat?</p>
+        </div>
+    </section>
+    <section id="cornblue">
+        <div>
+        <a href="#red">&#8593;</a>
+            <h3>Section Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, reiciendis, soluta? Adipisci asperiores consequatur, cumque dolorem dolorum, ea facere iste libero magni, maiores minima non pariatur porro rem veniam voluptatum.</p>
+        <a href="#green">&#8595;</a>
+        </div>
+    </section>
+    <section id="green">
+        <div>
+        <a href="#cornblue">&#8593;</a>
+            <h3>Section Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias, aperiam enim fugit hic impedit laborum laudantium magnam non odit officia rem repellendus soluta tempora unde! Amet aspernatur libero maxime.</p>
+        </div>
+    </section>
 
 </body>
 </html>
