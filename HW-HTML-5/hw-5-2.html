@@ -2,9 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Instagram</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header{
+            height: 600px;
+            width: 500px;
+            border: 2px solid grey;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        footer{
+            height: 100px;
+            width: 500px;
+            border: 2px solid grey;
+        }
+        img{
+            height: 100px;
+        }
+        button{
+            height: 40px;
+            width:310px;
+            background-color: #699BF7;
+            border-radius: 10px;
+            color: white;
+            border: none ;
+        }
+        .p{
+            height: 40px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #logo{
+            width: 30px;
+            height: 30px;
+        }
+        a{
+            text-decoration: none;
+        }
+        input[type="Text"]{
+            text-overflow:ellipsis;
+        }
+        .login{
+            font-size: 20px;
+            color: darkblue;
+        }
+        .lower{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
 </head>
 <body>
+    <header>
+        <img src="Instagram-logo.png" alt="">
+        <form>
+            <label for="email"></label>
+            <label for="password"></label>
+            <input type="text" name="email" id="email" placeholder="Номер телефону,ім'я користувача або e-mail" style="height: 40px;width: 300px;margin-bottom: 10px">
+            <br>
+            <input type="text" name="password" id="password" placeholder="Пароль" style="height: 40px;width: 300px;margin-bottom: 10px">
+            <div>
+                <button>Увійти</button>
+            </div>
+            <div class="p">
+            <p>АБО</p>
+            </div>
+            <div class="lower" style="margin-bottom: 40px">
+            <img src="icons8-facebook-144.png" alt="" id="logo"><a href="#"><span class="login">Увійти через Facebook</span></a>
+            </div>
+            <div class="lower">
+                <a href="#">Забули пароль?</a>
+            </div>
+        </form>
+    </header>
+    <footer>
+        <p style="font-size: 25px"><b>Не маєте облікового запису?</b><a href="#"><b>Зареєструйтеся</b></a></p>
+    </footer>
 
 </body>
 </html>
