@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+header{
+    height: 30vh ;
+    background-color: #8A8484;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main{
+    display: flex;
+}
+.left{
+    width: 70vw;
+    height: 70vh;
+    background-color: pink;
+}
+.right{
+    width: 30vw;
+    height: 70vh;
+    background-color: black;
+}
+
+
+
