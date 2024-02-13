@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+header{
+    height: 25vh;
+    width: 100vw;
+    background-color: #4E4949;
+}
+main{
+    display: flex;
+}
+.triple{
+    display: flex;
+}
+.b{
+    height: 40vh;
+    width: 75vw;
+    background-color: #9B6F6F;
+}
+.c{
+    height: 35vh;
+    width:25vw;
+    background-color: #699BF7;
+}
+.d{
+    height: 35vh;
+    width:25vw;
+    background-color: #4E4949;
+}
+.e{
+    height: 35vh;
+    width:25vw;
+    background-color: #65856E;
+}
+.f{
+    height: 75vh;
+    width: 25vw;
+    background-color: aqua;
+}
