@@ -70,7 +70,7 @@
             font-weight: 400;
             line-height: 39px;
         }
-        h1{
+        #s1{
             font-size: 80px;
             color: white;
         }
@@ -113,7 +113,7 @@
         #peoples{
             width: 65vw;
         }
-        .tittle{
+        .header3{
             height: 30vh;
             width: 100vw;
             background: #19191B;
@@ -121,6 +121,133 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+        .header3Tittle{
+            height: 140px;
+            width: 695px;
+        }
+        .wrap{
+            height: 70vh;
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            background: #19191B;
+        }
+        .cardh1{
+            color: #FFF;
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: -0.75px;
+        }
+        .cardP{
+            color: rgba(255, 255, 255, 0.70);
+            text-align: center;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: -0.5px;
+        }
+        .bag{
+            height: 25vh;
+            width: 30vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .icon1{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon1{
+            position: absolute;
+            top: -12%;
+        }
+        .icon2{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon2{
+            position: absolute;
+            top: -12%;
+        }
+        .icon3{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon3{
+            position: absolute;
+            top: -12%;
+        }
+        .icon4{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon4{
+            position: absolute;
+            top: -12%;
+        }
+        .icon5{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon5{
+            position: absolute;
+            top: -12%;
+        }
+        .icon6{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon6{
+            position: absolute;
+            top: -12%;
         }
           </style>
 </head>
@@ -142,7 +269,7 @@
     </header>
                 <section class="first">
                     <div class="section1">
-                    <h1>Build Your <br> Awesome <br> Platform</h1>
+                    <h1 id="s1">Build Your <br> Awesome <br> Platform</h1>
                         <p>Enver studio is a digital studio that offers several services such <br> as UI/UX Design to developers,we will provide the best
                             <br> service fot those of you who ise our services.</p>
                         <button id="section1button"> Our services</button>
@@ -152,23 +279,55 @@
                     </div>
                 </section>
                 <section class="header2">
-                    <div class="section2left"><h1 style="font-size:60px">Why Enver Is <br> The Best Choice? </h1></div>
+                    <div class="section2left"><h1 style="font-size:60px;color: #FFF;">Why Enver Is <br> The Best Choice? </h1></div>
                     <div class="section2right"><p>Watch this one minute video so you understand why you should use <br>our services!</p> </div>
                 </section>
                 <section class="section2photo">
                     <img src="image%204.png" id="peoples" alt="peoples">
                 </section>
-    <section class="tittle">
-        <h1>The Service We Provide <br> For You</h1>
-        <div class="wrap">
-            <div class="bag"></div>
-            <div class="bag"></div>
-            <div class="bag"></div>
-            <div class="bag"></div>
-            <div class="bag"></div>
-            <div class="bag"></div>
+    <section class="header3">
+        <div class="header3Tittle">
+        <h1 style="color: #FFF;font-size: 60px;">The Service We Provide <br> For You</h1>
         </div>
     </section>
+        <div class="wrap">
+            <div class="bag">
+                <div class="icon1"><img src="Oval.png" alt=""></div>
+                <div id="icon1"><img src="code.png" alt=""></div>
+                <h1 class="cardh1">Development</h1>
+                <p class="cardP">Create a platform with the best and coolest quality from us</p>
+            </div>
+            <div class="bag">
+                <div class="icon2"><img src="Oval%202.png" alt=""></div>
+                <div id="icon2"><img src="layer.png" alt=""></div>
+                <h1 class="cardh1">UI/UX Designer</h1>
+                <p class="cardP">We provide UI/UX Design services,and of course with the best quality</p>
+            </div>
+            <div class="bag">
+                <div class="icon3"><img src="Oval%203.png" alt=""></div>
+                <div id="icon3"><img src="code3.png" alt=""></div>
+                <h1 class="cardh1">Graphik Designer</h1>
+                <p class="cardP">We provide Graphic Design services, with the best designers</p>
+            </div>
+            <div class="bag">
+                <div class="icon4"><img src="Oval%203.png" alt=""></div>
+                <div id="icon4"><img src="align-vertically.png" alt=""></div>
+                <h1 class="cardh1">Motion Graphik</h1>
+                <p class="cardP">Create a platform with the best and coolest quality from us.</p>
+            </div>
+            <div class="bag">
+                <div class="icon5"><img src="Oval.png" alt=""></div>
+                <div id="icon5"><img src="camera.png" alt=""></div>
+                <h1 class="cardh1">Photography</h1>
+                <p class="cardP">We provide Photography services, and of course with the best quality</p>
+            </div>
+            <div class="bag">
+                <div class="icon6"><img src="Oval%202.png" alt=""></div>
+                <div id="icon6"><img src="video-play.png" alt=""></div>
+                <h1 class="cardh1">Videography</h1>
+                <p class="cardP">Create a platform with the best and coolest quality from us.</p>
+            </div>
+        </div>
     <section class="four"></section>
     <section class="five"></section>
     <footer></footer>
